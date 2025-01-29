@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* shared-styles */
+  .display-flex{
+    display: flex;
+  }
+  /* navbar-related */
+  .navbar{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 140px;
+   
+  }
+  .logo{
+    justify-content: center;
+    align-items: center;
+  }
+  .school{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .img-logo{
+    height: 60px;
+    width: 60x;
+  }
+  .ul-items{
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  #home{
+    font-weight: bold;
+    color: rgba(254, 163, 1, 1);
+  }
+  #about{
+    color: rgba(1, 172, 253, 1);
+  }
+  #facilities{
+    color: rgba(1, 172, 253, 1);
+  }
+  #admission{
+    color: rgba(93, 88, 239, 1);
+  }
+  .btn-contact{
+    height: 50px;
+    width: 200px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 60px;
+    border-radius: 12px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: none;
+  }
